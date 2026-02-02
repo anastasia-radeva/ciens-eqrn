@@ -45,7 +45,8 @@ To reproduce the results, run the following scripts in order:
 - `scripts/data_preprocessing.R`  
 - Model training:  
   - IID setup: `scripts/GRF_EQRN_train.R`  
-  - Sequential setup: `scripts/QRN_EQRN_train.R`  
+  - Sequential setup: `scripts/QRN_EQRN_train.R`
+ PLEASE NOTE: We did not conduct a hyperparameter search due to lack of time. The network parameters were sensibly chosen, but using the winning set of a parameter search could improve the results.
 - Model evaluation:  
   - IID setup: `scripts/evaluation.R`  
   - Sequential setup: `scripts/evaluation_seq.R`  
